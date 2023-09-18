@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5746a59b","path":"/account/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"JC 技术","slug":"jc-技术","link":"#jc-技术","children":[]}],"git":{"updatedTime":1695036297000,"contributors":[{"name":"Milmon","email":"107737161+Molmin@users.noreply.github.com","commits":1}]},"filePathRelative":"account/index.md"}');export{e as data};
