@@ -11,7 +11,7 @@ export default defineUserConfig({
     },
   },
   head: [['link', { rel: 'shortcut icon', type: 'image/x-icon', href: 'https://oi-wiki.org/favicon.ico' }]],
-  base: '/',
+  base: '/jc-docs/',
   theme: defaultTheme({
     locales: {
       '/': {
