@@ -1,0 +1,27 @@
+{
+    "name": "jc-docs",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jcer-team/jc-docs.git"
+    },
+    "author": "Milmon <milmon@qq.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jcer-team/jc-docs/issues"
+    },
+    "homepage": "https://github.com/jcer-team/jc-docs#readme",
+    "devDependencies": {
+      "@vuepress/plugin-search": "^2.0.0-beta.60",
+      "@vuepress/plugin-shiki": "^2.0.0-beta.60",
+      "vuepress": "^2.0.0-beta.60"
+    }
+  }
+  
