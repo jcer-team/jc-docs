@@ -2,8 +2,11 @@ name: docs
 
 on:
   push:
-    branches: [vuepress]
-  workflow_dispatch:
+    branches:    
+      - vuepress
+
+permissions:
+  contents: write
 
 jobs:
   docs:
@@ -20,7 +23,7 @@ jobs:
         run: |
           npm install -D vuepress@next
           npm run docs:build
-      - name: Build and Deploy
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs/.vuepress/dist
