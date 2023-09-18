@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,b as n}from"./app-807afff1.js";const o={},s=e("h2",{id:"jc-技术文档仓库",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#jc-技术文档仓库","aria-hidden":"true"},"#"),n(" JC 技术文档仓库")],-1),r=e("p",null,"由专业测试员 hank0402 鼎力支持！",-1),_=[s,r];function d(i,h){return a(),c("div",null,_)}const f=t(o,[["render",d],["__file","index.html.vue"]]);export{f as default};
