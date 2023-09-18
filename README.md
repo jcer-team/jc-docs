@@ -1,2 +1,3 @@
-## JC Documentations
+## JC 技术
 
+本仓库收录了一系列 **洛谷** 账号的 JC 技术。
