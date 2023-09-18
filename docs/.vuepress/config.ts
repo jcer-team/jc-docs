@@ -11,19 +11,29 @@ export default defineUserConfig({
     },
   },
   head: [['link', { rel: 'shortcut icon', type: 'image/x-icon', href: 'https://oi-wiki.org/favicon.ico' }]],
-  base: '/wordle-docs/',
+  base: '/',
   theme: defaultTheme({
     locales: {
       '/': {
         selectLanguageName: '简体中文',
         navbar: [
-          // { text: '使用', link: '/', },
+          { text: '账号 JC', link: '/account/', },
           // { text: '部署', link: '/install/', },
           // { text: '开发', link: '/dev/', },
           { text: 'GitHub 项目', link: 'https://github.com/jcer-team/jc-docs.git', },
         ],
       },
-    }
+    },
+    sidebar: {
+      '/account/': [
+        {
+          text: '账号 JC 技术',
+          collapsible: false,
+          children: ['/account/level-1.md', '/account/level-2.md'],
+        },
+      ],
+      '/': [''],
+    },
   }),
   plugins: [
     shikiPlugin({}),
