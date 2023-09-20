@@ -29,7 +29,7 @@ export default defineUserConfig({
         {
           text: '账号 JC 技术',
           collapsible: false,
-          children: ['/account/level-1.md', '/account/level-2.md'],
+          children: ['/account/level-1.md', '/account/level-2.md', '/account/level-3.md'],
         },
       ],
       '/': [''],
